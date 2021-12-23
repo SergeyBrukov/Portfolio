@@ -1,0 +1,40 @@
+.dark-white img:last-child{
+	display: none;
+}
+.bg__quote img:last-child{
+	display: none;
+}
+.video-plaer__block img:nth-child(2){
+	display: none;
+}
+.dark-theme{
+	.bg__container-header{
+		background-image: url(/img/bg-image/first-screen-image-black.png);
+	}
+	.dark-white img:last-child{
+		display: block;
+	}
+	.dark-white img:first-child{
+		display: none;
+	}
+	.wrapper{
+		background-color: #262A3F;
+		transition: background-color 0.5s linear;
+	}
+	.form__input{
+		background-color: #262A3F;
+	}
+	.bg__quote img:last-child{
+		display: block;
+	}
+
+	.bg__quote img:first-child{
+		display: none;
+	}
+	.video-plaer__block img:nth-child(2){
+		display: block;
+	}
+	.video-plaer__block img:nth-child(1){
+		display: none;
+	}
+}
